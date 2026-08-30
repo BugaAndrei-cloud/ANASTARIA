@@ -1,3 +1,31 @@
+# Dependencies
+node_modules/
+**/node_modules/
+external/OpenMU-Source/
 
-# ANASTARIA API secrets
-/api/.env
+# Build outputs
+bin/
+obj/
+dist/
+build/
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+
+# Environment
+.env
+.env.local
+*.log
+
+# IDE
+.vs/
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
