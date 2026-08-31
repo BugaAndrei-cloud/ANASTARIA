@@ -1,5 +1,4 @@
 from datetime import datetime
-
 from pydantic import BaseModel
 
 
@@ -39,6 +38,18 @@ class NewsResponse(BaseModel):
     items: list[NewsItem]
 
 
+class RankingPlayer(BaseModel):
+    rank: int
+    name: str
+    level: int
+    experience: int
+    master_experience: int
+    player_kills: int
+    character_class: str
+
+
 class RankingsResponse(BaseModel):
     status: str
-    items: list[dict]
+    top_level: list[RankingPlayer]
+    top_master: list[RankingPlayer]
+    top_killers: list[RankingPlayer]

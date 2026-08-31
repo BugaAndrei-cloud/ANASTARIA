@@ -1,31 +1,11 @@
-# Dependencies
-node_modules/
-**/node_modules/
-external/OpenMU-Source/
-
-# Build outputs
-bin/
-obj/
-dist/
-build/
-.cache/
-
-# Python
+.venv/
 __pycache__/
 *.pyc
-.pytest_cache/
-venv/
-
-# Environment
-.env
 .env.local
-*.log
-
-# IDE
-.vs/
-.vscode/settings.json
-.idea/
-
-# OS
+node_modules/
+.next/
+dist/
+build/
 .DS_Store
-Thumbs.db
+*.egg-info/
+.pytest_cache/
