@@ -86,3 +86,5 @@ def downgrade() -> None:
     op.drop_column("news", "image_url")
     op.drop_column("news", "category")
     op.drop_column("news", "content")
+
+

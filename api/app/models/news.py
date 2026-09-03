@@ -34,3 +34,5 @@ class News(Base):
         onupdate=datetime.utcnow,
         nullable=False,
     )
+
+

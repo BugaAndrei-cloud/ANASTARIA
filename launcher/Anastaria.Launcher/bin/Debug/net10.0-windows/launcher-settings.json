@@ -1,0 +1,6 @@
+{
+  "apiBaseUrl": "http://localhost:5000/api/v1/",
+  "websiteUrl": "http://localhost:3000/",
+  "gameExecutablePath": "../../../../client/multiplatform/MuWinDX/bin/Debug/net10.0-windows/ANASTARIA.exe",
+  "patchManifestUrl": null
+}

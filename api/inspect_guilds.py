@@ -1,6 +1,12 @@
 from sqlalchemy import create_engine, inspect
 
-engine = create_engine("postgresql://postgres:admin@127.0.0.1:5432/openmu")
+from app.config import settings
+
+
+if not settings.database_url:
+    raise RuntimeError("DATABASE_URL is not configured")
+
+engine = create_engine(settings.database_url)
 inspector = inspect(engine)
 
 # Verific toate schema-urile
@@ -21,3 +27,5 @@ for schema in schemas:
                     print(f"    {col['name']}: {col['type']}")
     except:
         pass
+
+

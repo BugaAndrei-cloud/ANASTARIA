@@ -1,6 +1,10 @@
 .venv/
+.venv*/
 __pycache__/
 *.pyc
+.env
+.env.*
+!.env.example
 .env.local
 node_modules/
 .next/
@@ -9,3 +13,6 @@ build/
 .DS_Store
 *.egg-info/
 .pytest_cache/
+*.backup
+*.bak
+*.old

@@ -1,9 +1,0 @@
-
-Path
-----                                                                
-D:\ANASTARIA\external\OpenMU-Source\src\GameLogic\GameContext.cs    
-D:\ANASTARIA\external\OpenMU-Source\src\GameLogic\GameContext.cs    
-D:\ANASTARIA\external\OpenMU-Source\src\GameLogic\GameContext.cs    
-D:\ANASTARIA\external\OpenMU-Source\src\GameLogic\GameContext.cs    
-D:\ANASTARIA\external\OpenMU-Source\src\GameLogic\Bots\BotGenerator…
-

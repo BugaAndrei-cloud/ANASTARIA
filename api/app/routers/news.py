@@ -5,6 +5,7 @@ from sqlalchemy.orm import Session
 from app.config import settings
 from app.database.session import SessionLocal
 from app.models.news import News
+from app.routers.auth import require_game_master
 from app.schemas.responses import NewsCreate, NewsItem, NewsResponse
 
 router = APIRouter(
@@ -62,6 +63,7 @@ def get_news(
 def create_news(
     payload: NewsCreate,
     db: Session = Depends(get_db),
+    _game_master: dict = Depends(require_game_master),
 ):
     item = News(
         title=payload.title,
@@ -77,3 +79,5 @@ def create_news(
     db.refresh(item)
 
     return item
+
+

@@ -1,0 +1,15 @@
+{
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/client/pc/MuMain-Source/out/build/windows-x64/compile_commands.json",
+  "C_Cpp.intelliSenseCachePath": "${workspaceFolder}/client/pc/MuMain-Source/out/intellisense-cache",
+  "python.analysis.exclude": [
+    "**/.venv/**",
+    "**/node_modules/**",
+    "**/out/**",
+    "client/pc/MuMain-Source/src/ThirdParty/**"
+  ],
+  "python.analysis.diagnosticMode": "openFilesOnly",
+  "cmake.sourceDirectory": "${workspaceFolder}/client/pc/MuMain-Source",
+  "cmake.useCMakePresets": "always",
+  "cmake.configureOnOpen": false,
+  "cmake.automaticReconfigure": false
+}

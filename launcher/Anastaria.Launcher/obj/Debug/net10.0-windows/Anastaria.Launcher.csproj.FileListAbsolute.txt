@@ -1,0 +1,22 @@
+D:\ANASTARIA\launcher\Anastaria.Launcher\obj\Debug\net10.0-windows\MainWindow.baml
+D:\ANASTARIA\launcher\Anastaria.Launcher\obj\Debug\net10.0-windows\App.baml
+D:\ANASTARIA\launcher\Anastaria.Launcher\obj\Debug\net10.0-windows\MainWindow.g.cs
+D:\ANASTARIA\launcher\Anastaria.Launcher\obj\Debug\net10.0-windows\App.g.cs
+D:\ANASTARIA\launcher\Anastaria.Launcher\obj\Debug\net10.0-windows\ANASTARIA Launcher_MarkupCompile.cache
+D:\ANASTARIA\launcher\Anastaria.Launcher\obj\Debug\net10.0-windows\ANASTARIA Launcher.g.resources
+D:\ANASTARIA\launcher\Anastaria.Launcher\obj\Debug\net10.0-windows\Anastaria.Launcher.GeneratedMSBuildEditorConfig.editorconfig
+D:\ANASTARIA\launcher\Anastaria.Launcher\obj\Debug\net10.0-windows\Anastaria.Launcher.AssemblyInfoInputs.cache
+D:\ANASTARIA\launcher\Anastaria.Launcher\obj\Debug\net10.0-windows\Anastaria.Launcher.AssemblyInfo.cs
+D:\ANASTARIA\launcher\Anastaria.Launcher\obj\Debug\net10.0-windows\Anastaria.Launcher.csproj.CoreCompileInputs.cache
+D:\ANASTARIA\launcher\Anastaria.Launcher\obj\Debug\net10.0-windows\Anastaria.Launcher.sourcelink.json
+D:\ANASTARIA\launcher\Anastaria.Launcher\bin\Debug\net10.0-windows\launcher-settings.json
+D:\ANASTARIA\launcher\Anastaria.Launcher\bin\Debug\net10.0-windows\ANASTARIA Launcher.exe
+D:\ANASTARIA\launcher\Anastaria.Launcher\bin\Debug\net10.0-windows\ANASTARIA Launcher.deps.json
+D:\ANASTARIA\launcher\Anastaria.Launcher\bin\Debug\net10.0-windows\ANASTARIA Launcher.runtimeconfig.json
+D:\ANASTARIA\launcher\Anastaria.Launcher\bin\Debug\net10.0-windows\ANASTARIA Launcher.dll
+D:\ANASTARIA\launcher\Anastaria.Launcher\bin\Debug\net10.0-windows\ANASTARIA Launcher.pdb
+D:\ANASTARIA\launcher\Anastaria.Launcher\obj\Debug\net10.0-windows\ANASTARIA Launcher.dll
+D:\ANASTARIA\launcher\Anastaria.Launcher\obj\Debug\net10.0-windows\refint\ANASTARIA Launcher.dll
+D:\ANASTARIA\launcher\Anastaria.Launcher\obj\Debug\net10.0-windows\ANASTARIA Launcher.pdb
+D:\ANASTARIA\launcher\Anastaria.Launcher\obj\Debug\net10.0-windows\Anastaria.Launcher.genruntimeconfig.cache
+D:\ANASTARIA\launcher\Anastaria.Launcher\obj\Debug\net10.0-windows\ref\ANASTARIA Launcher.dll
