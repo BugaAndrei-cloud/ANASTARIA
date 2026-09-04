@@ -1,3 +1,7 @@
 [submodule "external/OpenMU-Source"]
     path = external/OpenMU-Source
     url = https://github.com/BugaAndrei-cloud/ANASTARIA-OpenMU.git
+
+[submodule "client/pc/MuMain-Source"]
+    path = client/pc/MuMain-Source
+    url = https://github.com/sven-n/MuMain.git
