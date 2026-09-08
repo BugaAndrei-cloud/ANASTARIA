@@ -21,6 +21,39 @@ services:
     volumes:
       - redis_data:/data
 
+  # ANASTARIA API. Currently configured against the OpenMU `database`
+  # container (all-in-one project) per Marketplace Phase 2 architecture.
+  # Do not change this database target here.
+  api:
+    build:
+      context: ../../api
+    container_name: anastaria-api
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:5000:5000"
+    environment:
+      APP_NAME: ANASTARIA API
+      APP_VERSION: 0.1.0
+      ENVIRONMENT: development
+      API_PREFIX: /api/v1
+      DATABASE_URL: ${API_DATABASE_URL:-postgresql+psycopg://postgres:admin@database:5432/openmu}
+      OPENMU_SERVER_INFO_URL: ${API_OPENMU_SERVER_INFO_URL:-http://openmu-startup:8080/api/status}
+      WEBSITE_URL: ${API_WEBSITE_URL:-http://localhost:3000}
+    networks:
+      - default
+      - openmu
+
+networks:
+  # External network created by the OpenMU all-in-one Compose project.
+  # The api service joins it to reach the `database` and `openmu-startup`
+  # containers by name. Requires the all-in-one stack to have been started
+  # at least once so this network exists.
+  openmu:
+    external: true
+    name: all-in-one_default
+
 volumes:
   postgres_data:
   redis_data:
+  website_node_modules:
+  website_next:

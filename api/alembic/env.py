@@ -8,6 +8,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 from alembic import context
 from app.config import settings
 from app.database.base import Base
+import app.models  # noqa: F401,E402
 from sqlalchemy import engine_from_config, pool
 
 config = context.config

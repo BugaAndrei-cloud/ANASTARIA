@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings
 
-from app.routers import auth, commerce, news, rankings, server, site_content
+from app.routers import auth, commerce, marketplace, news, rankings, server, site_content
 
 
 
@@ -48,3 +48,4 @@ app.include_router(rankings.router)
 app.include_router(site_content.router)
 app.include_router(commerce.router)
 app.include_router(auth.router)
+app.include_router(marketplace.router)
